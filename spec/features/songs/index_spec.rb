@@ -1,4 +1,4 @@
-RSpec.descrive "Songs index page", type :feature do
+RSpec.describe "Songs index page", type :feature do
     it 'can see all songs, their titles, play count, and length' do
         song_1 = Song.create(title: "I Really Like You", length: 208, play_count: 2456357)
         song_2 = Song.create(title: "Call Me Maybe", length: 207, play_count: 21456357)
